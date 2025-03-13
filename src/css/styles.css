@@ -66,3 +66,7 @@
   height: 200px;
   cursor: pointer;
 }
+
+.hidden {
+  visibility: hidden;
+}

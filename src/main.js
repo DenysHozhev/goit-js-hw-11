@@ -34,7 +34,7 @@ function userInputForm(event) {
   if (!query) {
     return;
   }
-  loader.classList.remove('visually-hidden');
+  loader.classList.remove('hidden');
   clearGallery();
   form.reset();
 
@@ -63,6 +63,6 @@ function userInputForm(event) {
       });
     })
     .finally(() => {
-      loader.classList.add('visually-hidden');
+      loader.classList.add('hidden');
     });
 }
